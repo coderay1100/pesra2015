@@ -1,0 +1,25 @@
+{
+  "name": "pesra2015",
+  "version": "0.0.0",
+  "authors": [
+    "coderay1100 <rayp1100@gmail.com>"
+  ],
+  "description": "Pesta Rakyat 2015",
+  "main": "index.html",
+  "keywords": [
+    "pesta",
+    "rakyat",
+    "ppia",
+    "indonesia"
+  ],
+  "license": "-",
+  "homepage": "ppia-queensland.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
