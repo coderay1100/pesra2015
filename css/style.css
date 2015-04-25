@@ -26,12 +26,14 @@
 
 #desc{
 	padding-top: 6.5vh;
-	height: 100vh;
+	height: 120vh;
+	padding-bottom: 6.5vh;
 }
 
 #history{
 	padding-top: 6.5vh;
 	height: 100vh;
+		padding-bottom: 6.5vh;
 }
 
 .flag{
