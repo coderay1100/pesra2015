@@ -1,0 +1,78 @@
+.downlittle{
+	padding-top: 7vh;
+}
+
+.navbar-default{
+	background-color: white;
+}
+
+
+.logo{
+	height: 5vh;
+	line-height: 1;
+  	display: inline-block;
+  	vertical-align: middle;
+}
+
+.item>img{
+	width: 100% !important;
+	height:100% !important;
+}
+
+#Oprec{
+	padding-top: 6.5vh;
+	height: 100vh;
+}
+
+#desc{
+	padding-top: 6.5vh;
+	height: 100vh;
+}
+
+#history{
+	padding-top: 6.5vh;
+	height: 100vh;
+}
+
+.flag{
+	height: 1.5vh;	
+}
+.black{
+		line-height: 5vh;	
+}
+
+.black>li>a{
+		color: #505966;
+}
+
+.social{
+	padding-left:5vw;
+}
+
+.social>li>a>i{
+	font-size: 3vw;
+	color: #505966;
+}
+
+.socialize>li>a>i{
+	font-size: 3vw;
+	color: #505966;
+}
+
+footer{
+	padding-top: 5vh;
+	background-color: #E0E0E0;
+	color: #505966;
+	padding-bottom: 5vh;
+}
+
+hr{
+	  border-top: 1px solid #505966;
+}
+
+.menu{
+	display: inline-block;
+	width: 60vw	;
+	vertical-align: middle;
+}
+
