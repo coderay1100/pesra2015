@@ -21,14 +21,17 @@
 
 #Oprec{
 	background-image: url(../images/background/c3.jpg);
+	width: 100vw;
 	background-size: cover;
 }
 
 #desc{
+	width: 100vw;
 	padding-top: 6.5vh;
 }
 
-#history{	
+#history{
+	width: 100vw;	
 	background-image: url(../images/background/c2.jpg);
 	background-size: cover;
 }
