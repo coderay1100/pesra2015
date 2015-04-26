@@ -20,19 +20,54 @@
 }
 
 #Oprec{
-	padding-top: 6.5vh;
-	height: 100vh;
+	background-image: url(../images/background/c3.jpg);
+	background-size: cover;
 }
 
 #desc{
 	padding-top: 6.5vh;
-	padding-bottom: 10vh;
 }
 
-#history{
-	padding-top: 6.5vh;
-	height: 100vh;
-		padding-bottom: 6.5vh;
+#history{	
+	background-image: url(../images/background/c2.jpg);
+	background-size: cover;
+}
+
+.monas{
+	display: block;
+	height: 40vh;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.max{
+	text-align: center;
+	display: inline-block;
+	width: 49%;
+}
+
+.logotemp{
+	display: block;
+	height: 30vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smaller-text p{
+	font-size: 16px;
+}
+
+.jumbotron{
+	background: rgba(255,255,255,0.9);
+}
+
+.trans{
+	background: rgba(255,255,255,0.7) !important;
+	height: 100vh;	
+}
+
+.walloffame{
+	color:black;
 }
 
 .flag{
