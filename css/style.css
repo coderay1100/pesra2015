@@ -8,15 +8,46 @@
 
 
 .logo{
-	height: 5vh;
+	height: 4.5vh;
 	line-height: 1;
   	display: inline-block;
   	vertical-align: middle;
 }
 
-.item>img{
-	width: 100% !important;
-	height:100% !important;
+.item{
+	padding-top: 10vh;
+	height: 100% !important;
+
+}
+
+.item2{
+	background-image: url(../images/background/ac-back.jpg);
+	padding-left: 10vh;
+	background-size: cover;
+	padding-bottom: 10vh;	
+}
+
+.item3{
+	background-image: url(../images/background/ex-back.jpg);
+	padding-left: 10vh;
+	background-size: cover;
+	color: white;
+	padding-bottom: 10vh;	
+}
+
+.another{
+	  border-top: 1px solid white;
+}
+
+.item4{
+	background-image: url(../images/background/ope-back.jpg);
+	padding-left: 10vh;
+	background-size: cover;
+	padding-bottom: 10vh;	
+}
+
+.item2>.col-md-4>img{
+	height: 20% ;
 }
 
 #Oprec{
