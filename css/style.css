@@ -2,6 +2,10 @@
 	padding-top: 7vh;
 }
 
+#myCarousel{
+	height: 100vh;
+}
+
 .navbar-default{
 	background-color: white;
 }
@@ -16,11 +20,12 @@
 
 .item{
 	padding-top: 10vh;
-	height: 100% !important;
+	height: 100vh;
 
 }
 
 .item2{
+	height: 100vh;
 	background-image: url(../images/background/ac-back.jpg);
 	padding-left: 10vh;
 	background-size: cover;
@@ -28,6 +33,7 @@
 }
 
 .item3{
+		height: 100vh;
 	background-image: url(../images/background/ex-back.jpg);
 	padding-left: 10vh;
 	background-size: cover;
@@ -40,6 +46,7 @@
 }
 
 .item4{
+		height: 100vh;
 	background-image: url(../images/background/ope-back.jpg);
 	padding-left: 10vh;
 	background-size: cover;
@@ -62,11 +69,13 @@
 
 #desc{
 	width: 100vw;
+	height: 100vh;
 	padding-top: 6.5vh;
 }
 
 #history{
 	width: 100vw;	
+	height: 100vh;
 	background-image: url(../images/background/c2.jpg);
 	background-size: cover;
 }
