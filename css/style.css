@@ -56,6 +56,10 @@
 	background-size: cover;
 }
 
+#Oprec p{
+	font-size: 15px;
+}
+
 #desc{
 	width: 100vw;
 	padding-top: 6.5vh;
