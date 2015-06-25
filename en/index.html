@@ -8,6 +8,8 @@
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/font-awesome.min.css" rel="stylesheet">
   <link href="../css/style.css" rel="stylesheet">
+
+  <link href="../css/flexslider.css" rel="stylesheet">
   <link rel="icon" 
   type="image/png" 
   href="../images/tempo.png">
@@ -178,10 +180,10 @@
      </ol>
 
      <!-- Wrapper for slides -->
-     <div class="carousel-inner " role="listbox">
-       <div class="item active">
-        <img class="rec"src="../images/slider/recruit2.png">
-      </div>
+     <div class="carousel-inner hidden-xs" role="listbox">
+                 <div class="item active">
+                  <img src="../images/slider/recruit2.png">
+                </div>
 
       <div class="item">
         <div class="row item2">
@@ -293,7 +295,44 @@
       <p>We are now recruiting staffs for our committee! What are you waiting for? Sign up and join out team ☺ We also provided job descriptions of each division in our team, you can read them by clicking this pdf file or register directly below here:</p>
       <br><br>
       <a href="../docs/job-desc.pdf" class="btn btn-danger btn-lg max" role="button"> <i class="fa fa-file-pdf-o"></i> Download Job Desk</a>
-      <a href="http://goo.gl/forms/aXCnqYM5sV" class="btn btn-danger btn-lg max" role="button"> <i class="fa fa-users"></i> Register here</a>
+      <a href="http://goo.gl/forms/aXCnqYM5sV" class="btn btn-danger btn-lg max" role="button"> <i class="fa fa-users"></i> Register here</a><br><br>
+
+      <h2 class="text-center">Open Spot :</h2>
+                    <div class=" row flexslider">
+                      <ul class="slides">
+                        <li>
+                        <div class="text-center sisa jumbotron">
+                          <h3><i class="fa fa-money"></i> Sponsorship</h3>
+                          <h1 class="inline"><b>3</b></h1><p class="inline">person</p>
+                        </div>
+                        </li>
+                        <li>                        
+                          <div class="text-center sisa jumbotron">
+                          <h3><i class="fa fa-users"></i> Man Power</h3>
+                          <h1 class="inline"><b>20</b></h1><p class="inline">person</p>
+                        </div>
+                        </li>
+                        <li>                        
+                          <div class="text-center sisa jumbotron">
+                          <h3> <i class="fa fa-camera"></i> Documentation</h3>
+                          <h1 class="inline"><b>5</b></h1><p class="inline">person</p>
+                        </div>
+                        </li>
+                        <li>
+                          <div class="text-center sisa jumbotron">
+                          <h3><i class="fa fa-building-o"></i> Venue</h3>
+                          <h1 class="inline"><b>2</b></h1><p class="inline">person</p>
+                        </div>                    
+                        </li>
+                        <li>
+                          <div class="text-center sisa jumbotron">
+                          <h3><i class="fa fa-bullhorn"></i> Event</h3>
+                          <h1 class="inline"><b>2</b></h1><p class="inline">person</p>
+                        </div>                    
+                        </li>
+                        <!-- items mirrored twice, total of 12 -->
+                      </ul>
+                      </div>
 
     </div>
 
@@ -349,5 +388,8 @@
 <script src="../js/jquery-1.11.2.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/smooth.js" type="text/javascript"></script>
+
+            <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+            <script type="text/javascript" src="../js/jquery.flexslider.js"></script>
 </body>
 </html>

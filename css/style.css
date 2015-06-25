@@ -92,10 +92,22 @@
 	margin-right: auto;	
 }
 
+.inline{
+	display: inline-block;
+}
+
 .max{
 	text-align: center;
 	display: inline-block;
-	width: 49%;
+	width: 49.5%;
+}
+
+.sisa{
+	padding: 0 !important;
+	margin: 0 !important;
+	border-left: medium;
+	border-right: medium;
+	border-style: solid;
 }
 
 .logotemp{
