@@ -102,6 +102,11 @@
 	width: 49.5%;
 }
 
+.nothing{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
 .sisa{
 	padding: 0 !important;
 	margin: 0 !important;
